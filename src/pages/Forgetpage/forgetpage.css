@@ -1,0 +1,19 @@
+.forgetpage .header {
+  background-color: #fff;
+}
+
+.forgetpage {
+  position: relative;
+}
+
+.left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

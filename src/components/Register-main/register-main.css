@@ -1,0 +1,104 @@
+.registermain {
+  width: 343px;
+  margin: 0 auto;
+  padding-top: 225px;
+  padding-bottom: 300px;
+}
+
+.register-top {
+  width: 271px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.25px;
+  color: #673ab7;
+}
+
+.register-text {
+  width: 260px;
+  margin: 28px 0 12px;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.l-input {
+  margin-left: 16px;
+  border: none;
+  outline: none;
+}
+
+.register-input {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 16px 0 16px 20px;
+  border: 2px solid #673ab7;
+  border-radius: 16px;
+}
+
+.l-one {
+  margin-bottom: 24px;
+}
+
+.l-two {
+  margin-bottom: 48px;
+}
+
+.register-input2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  border: 2px solid #673ab7;
+  border-radius: 16px;
+}
+
+.register-link {
+  margin: 0;
+  display: inline-block;
+  padding: 16px 124px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #673ab7;
+  border: 1px solid #673ab7;
+  border-radius: 16px;
+}
+
+.register-link:hover {
+  cursor: pointer;
+}
+
+.l-p {
+  margin: 0;
+  margin-bottom: 6px;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+@media (max-width: 375px) {
+  .registermain {
+    width: 343px;
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-bottom: 177px;
+  }
+}

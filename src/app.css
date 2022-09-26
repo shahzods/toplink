@@ -1,0 +1,19 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
+/*.app {
+  background: #f7f7ff;
+}*/
+
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+  }
+}

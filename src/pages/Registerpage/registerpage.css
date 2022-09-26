@@ -1,0 +1,29 @@
+.registerpage .header {
+  background-color: white;
+}
+
+.registerpage {
+  position: relative;
+}
+
+.left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media (max-width: 375px) {
+  .left {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+}

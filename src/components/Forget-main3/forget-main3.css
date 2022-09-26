@@ -1,0 +1,17 @@
+.forget-main3 {
+  width: 343px;
+  margin: 0 auto;
+  padding: 244px 0 318px;
+}
+
+.forget-b {
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .forget-main3 {
+    width: 343px;
+    margin: 0 auto;
+    padding: 80px 0 214px;
+  }
+}

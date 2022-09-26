@@ -1,0 +1,194 @@
+.home {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-page {
+  background: #f7f7ff;
+  padding: 47px 0 0 0;
+}
+
+.home-top {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 72px;
+  color: #000000;
+}
+
+.home-text {
+  margin: 24px 0 32px 0;
+  padding: 0;
+  width: 450px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.home-link {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  padding: 12px 19px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border: 2px solid #673ab7;
+  border-radius: 8px;
+}
+
+.home-link:hover {
+  background: #ffffff;
+  color: #673ab7;
+}
+
+.hero-status {
+  margin-top: 28px 0 0 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.man {
+  position: relative;
+}
+
+.telegram {
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  right: 620px;
+}
+
+.shazam {
+  position: absolute;
+  top: 95px;
+  right: 520px;
+}
+
+.safari {
+  position: absolute;
+  top: 140px;
+  right: 550px;
+}
+
+.amazon {
+  position: absolute;
+  top: 175px;
+  right: 590px;
+}
+
+.paypal {
+  position: absolute;
+  top: 173px;
+  right: 515px;
+}
+
+.snapchat {
+  position: absolute;
+  top: 225px;
+  right: 550px;
+}
+
+.steam {
+  position: absolute;
+  top: 250px;
+  right: 610px;
+}
+
+.facebook {
+  position: absolute;
+  top: 275px;
+  right: 500px;
+}
+
+@media (max-width: 375px) {
+  .home-page {
+    background: #fff;
+    padding: 32px 0 0 0;
+  }
+
+  .home-big {
+    width: 345px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .home-top {
+    width: 327px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 799;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+  }
+
+  .home-text {
+    width: 327px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0 32px 0;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .home-link {
+    display: block;
+    text-decoration: none;
+    width: 280px;
+    margin: 0 auto;
+    padding: 12px 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+    border: 2px solid #673ab7;
+    border-radius: 8px;
+  }
+
+  .home-link:hover {
+    background: #ffffff;
+    color: #673ab7;
+  }
+
+  .hero-status {
+    text-align: center;
+    margin: 16 0 0 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+  }
+}

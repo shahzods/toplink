@@ -1,0 +1,73 @@
+.Loginmain {
+  width: 343px;
+  margin: 0 auto;
+  padding-top: 186px;
+  padding-bottom: 261px;
+}
+
+.l2-two {
+  margin-bottom: 16px;
+}
+
+.login-back {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.login-link {
+  margin: 32px 0 32px;
+  display: inline-block;
+  padding: 16px 148px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #673ab7;
+  border: 1px solid #673ab7;
+  border-radius: 16px;
+}
+
+.login-link:hover {
+  cursor: pointer;
+}
+
+.login-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.l-bottom {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.l-link {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+@media (max-width: 375px) {
+  .Loginmain {
+    width: 343px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+}

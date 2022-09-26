@@ -1,0 +1,83 @@
+.forget-main {
+  width: 343px;
+  margin: 0 auto;
+  padding: 282px 0 366px;
+}
+
+.forget-top {
+  display: flex;
+  align-items: center;
+}
+
+.forget-input {
+  border: none;
+  outline: none;
+  margin-left: 15px;
+}
+
+.forget-h {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #673ab7;
+}
+
+.forget-p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  padding: 0;
+  width: 286px;
+}
+
+.forget-name {
+  margin: 0;
+  margin-bottom: 6px;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.forget-box {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 16px 20px;
+  border: 2px solid #673ab7;
+  border-radius: 16px;
+}
+
+.forget-b {
+  margin: 0;
+  display: inline-block;
+  padding: 16px 124px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #673ab7;
+  border: 1px solid #673ab7;
+  border-radius: 16px;
+}
+
+.forget-b:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .forget-main {
+    width: 343px;
+    margin: 0 auto;
+    padding: 80px 0 300px;
+  }
+}

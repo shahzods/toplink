@@ -1,0 +1,261 @@
+.x-top {
+  margin: 56px 0 40px;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.x-text {
+  margin: 0;
+  margin-bottom: 70px;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.x-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.xone-top {
+  margin: 0;
+  margin-bottom: 48px;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  color: #182f43;
+}
+
+.xone-text {
+  margin: 0;
+  padding: 0;
+  width: 570px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #182f43;
+}
+
+.x-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.xtwo-right {
+  width: 560px;
+}
+
+.xtwo-top {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  color: #182f43;
+}
+
+.xtwo-text {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #182f43;
+}
+
+.x-three {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.xthree-top {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 52px;
+  color: #182f43;
+}
+
+.xthree-text {
+  margin: 0;
+  padding: 0;
+  width: 560px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #182f43;
+}
+
+.x-four {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.xfour-right {
+  width: 560px;
+}
+
+.xfour-top {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  color: #182f43;
+}
+
+.xfour-text {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #182f43;
+}
+
+.x-five {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.xfive-right {
+  width: 580px;
+}
+
+.xfive-top {
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  color: #182f43;
+}
+
+.xfive-text {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #182f43;
+}
+
+@media (max-width: 375px) {
+  .x-one {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .x-two {
+    display: block;
+  }
+
+  .x-three {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .x-four {
+    display: block;
+  }
+
+  .x-five {
+    display: block;
+  }
+
+  .x-f {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .x-h {
+    display: block;
+    width: 345px;
+    margin: 0 auto;
+    width: 345px;
+    padding: 32px 0 16px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #182f43;
+  }
+
+  .x-t {
+    display: block;
+    width: 345px;
+    margin: 0 auto;
+    padding: 0 0 32px 0;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #182f43;
+  }
+
+  .apple-tel {
+    display: block;
+    width: 170px;
+    height: 297px;
+    margin: 0 auto;
+  }
+
+  .apple-tell {
+    display: block;
+    width: 256px;
+    height: 310px;
+    margin: 0 auto;
+  }
+
+  .x-right {
+    max-width: 345px;
+  }
+}
