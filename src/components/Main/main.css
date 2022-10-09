@@ -129,6 +129,22 @@
   color: #182f43;
 }
 
+.two-iphones {
+  animation-name: iphones;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes iphones {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
+
 .three-left {
   margin-top: 225px;
   margin-bottom: 403px;
@@ -186,42 +202,79 @@
   position: absolute;
   bottom: 316px;
   right: 165px;
+  animation-name: animation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+}
+
+@keyframes animation {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
 
 .microsoft {
   position: absolute;
   bottom: 590px;
   right: 435px;
+  animation-name: animation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
 }
 
 .mail {
   position: absolute;
   bottom: 500px;
   right: 30px;
+  animation-name: animation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
 }
 
 .mastercard {
   position: absolute;
   bottom: 200px;
   right: 490px;
+  animation-name: animation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
 }
 
 .shutter {
   position: absolute;
   bottom: 120px;
   right: 310px;
+  animation-name: animation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
 }
 
 .spotify {
   position: absolute;
   bottom: 90px;
   right: 40px;
+  animation-name: animation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
 }
 
 .sberbank {
   position: absolute;
   bottom: 10px;
   right: 440px;
+  animation-name: animation;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
 }
 
 @media (max-width: 375px) {
